@@ -1,0 +1,189 @@
+@import "fonts.css";
+
+@import "normalize.css";
+/* 0. Imports */
+/* 1. Variables */
+/* 1.1. Colors */
+/* 2. Global Styles */
+body {
+  margin: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 14px;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: Aller, sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 40px;
+  font-style: italic;
+  color: #000000;
+  margin: 38px 0;
+}
+a {
+  color: #000000;
+  text-decoration: underline;
+}
+a:hover, a.active {
+  color: #0b5a9b;
+}
+a:visited {
+  color: #000000;
+}
+/* 3. Layout styles */
+.blue-background {
+  background: white;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #3f9ac4;
+  padding-bottom: 20px;
+}
+.blue-background #background-mask {
+  background: transparent url("../images/backround_mask.png") 0 0 no-repeat;
+  margin: 0 auto;
+  width: 1300px;
+}
+header.main {
+  padding: 0 20px 10px 0;
+  position: relative;
+}
+header.main .logo {
+  display: block;
+  width: 220px;
+  text-decoration: none;
+}
+header.main .logo img {
+  margin: 0 9px 0 0;
+}
+header.main .logo strong {
+  font-family: Aller, sans-serif;
+  font-size: 250%;
+  font-weight: bold;
+  line-height: 30px;
+  font-style: italic;
+  color: #000000;
+  position: absolute;
+  top: 20px;
+  left: 85px;
+}
+header.main .right {
+  padding: 20px 0 0 0;
+}
+nav.top {
+  width: 100%;
+  border-bottom: 5px solid #cd1324;
+  /* @TODO prendat do a */
+
+}
+nav.top .first {
+  background: transparent url("../images/menu_stripe.png");
+  height: 50px;
+  width: 5px;
+  background-position: 0 -250px;
+  background-repeat: no-repeat;
+}
+nav.top .first.active {
+  background-position: 0 0;
+}
+nav.top .last {
+  background: transparent url("../images/menu_stripe.png");
+  height: 50px;
+  width: 5px;
+  background-position: 0 -50px;
+  background-repeat: no-repeat;
+}
+nav.top .last.active {
+  background-position: 0 -200px;
+}
+nav.top a {
+  float: left;
+  background: transparent url("../images/menu_stripe.png");
+  height: 50px;
+  height: 20px;
+  width: 16.49%;
+  padding: 15px 0;
+  background-position: 0 -150px;
+  background-repeat: repeat-x;
+  display: block;
+  text-align: center;
+  font-family: Aller, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.19);
+  text-decoration: none;
+}
+nav.top a:hover {
+  background-position: 0 -300px;
+}
+nav.top a.active, nav.top a.active:hover {
+  background-position: 0 -100px;
+}
+/* 4. Global classes */
+.col {
+  float: left;
+}
+.col_3 {
+  width: 33%;
+}
+.col_2 {
+  width: 50%;
+}
+.clear {
+  clear: both;
+  display: block;
+  height: 0.0001px;
+}
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+.hidden {
+  display: none;
+}
+/* 4.1 Icons */
+.icon {
+  display: block;
+  float: left;
+  background: transparent url("../images/icons_sprite.png") no-repeat;
+}
+.icon.rate {
+  background-position: 0 0;
+  width: 24px;
+  height: 12px;
+  margin: 0 7px 0 0;
+}
+/* 5. Page specific */
+/* 5.1. Homepage */
+.content-blue {
+  padding: 0 20px;
+}
+.content-blue .col_2 {
+  width: 655px;
+}
+.content-blue .col_2.last {
+  width: 245px;
+}
+.content-blue .col_2.last h3 {
+  margin: 0;
+  color: #195369;
+  font-family: Aller, sans-serif;
+  font-size: 20px;
+  font-weight: italic;
+  line-height: 12px;
+}
+.arrow a {
+  padding: 0 0 0 30px;
+  display: block;
+}
+/* Appendix A: CSS3 */
+/* Appendix B: Font mixins */
