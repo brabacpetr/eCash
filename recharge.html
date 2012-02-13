@@ -46,11 +46,11 @@
             </header>
 
             <nav class="top">
-                <a href="#" class="first active">
+                <a href="#" class="first">
                     <span></span>
                     Exchange
                 </a>
-                <a href="#">Recharge card</a>
+                <a href="#" class="active">Recharge card</a>
                 <a href="#">Transfer card</a>
                 <a href="#">Terms of use</a>
                 <a href="#">About service</a>
@@ -63,34 +63,48 @@
             <div class="content-blue">
                 <div class="pad20">
                     <div class="col_2 fixed col">
-                        <h1>Currency exchange</h1>
+                        <h1>Recharge card</h1>
 
                         <form action="index.html" method="get">
-                            <fieldset class="col_3 col">
-                                <input type="text" name="value_first" value="">
-                                <select name="">
-                                    <option>iKoruna CZK</option>
-                                </select>
-                                <br><br>
+                            <fieldset class="col_2 col">
+                                <label class="with-input">Recipient:</label>
+                                <input type="text" name="value_first" class="with-label" value="">
+                                <div class="clear"></div>
+                                <label class="with-input">Email:</label>
+                                <input type="text" name="value_first" class="with-label" value="" placeholder="@">
+                                <div class="clear"></div>
+                                <label class="with-input">Phone:</label>
+                                <input type="text" name="value_first" class="with-label" value="" placeholder="(e.g. +31234567801)">
+                                <div class="clear"></div>
+
+                            </fieldset>
+
+                            <fieldset class="col_2 end col">
+                                <label class="with-input">Card#:</label>
+                                <input type="text" name="value_first" class="with-label" value="">
+                                <div class="clear"></div>
+                                <label class="with-input">Amount:</label>
+                                <input type="text" name="value_first" class="with-label bold" value="" placeholder="0.00 &euro;">
+                                <div class="clear"></div>
+                            </fieldset>
+
+                            <div class="clear"></div>
+                            <br><br>
+
+                            <fieldset class="col col_1">
+                                <label class="with-input">Retype:</label>
+                                <input type="text" name="value_first" class="with-label" value="">
+                                <img class="left" src="images/captcha.png" alt="Captcha">
+                                <div class="clear"></div>
+                                <br>
                                 <a href="#" class="button submit">
                                     <span class="left"></span>
                                     <span class="text">
-                                        Next step <sup>2/2</sup>
+                                        Recharge
                                     </span>
                                     <span class="right"></span>
+                                    <div class="clear"></div>
                                 </a>
-                            </fieldset>
-
-                            <div class="col arrow">
-                                <a href="#"><img src="images/blue_arrow_btn.png" alt="Blue arrow button"><br>Change
-                                    direction</a>
-                            </div>
-
-                            <fieldset class="col_3 col">
-                                <input type="text" name="value_first" value="">
-                                <select name="">
-                                    <option>iKoruna CZK</option>
-                                </select>
                             </fieldset>
 
                             <div class="clear"></div>
