@@ -1,6 +1,8 @@
 @import "fonts.css";
 
 @import "normalize.css";
+
+@import "languages.css";
 /* 0. Imports */
 /* 1. Variables */
 /* 1.1. Colors */
@@ -386,6 +388,17 @@ header.main .logo strong {
 }
 header.main .right {
   padding: 20px 0 0 0;
+  width: 350px;
+}
+header.main .right form {
+  float: left;
+}
+header.main .right form label {
+  color: #666666;
+  font-size: 11px;
+}
+header.main .right img {
+  float: right;
 }
 nav.top {
   width: 100%;

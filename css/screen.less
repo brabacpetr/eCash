@@ -1,7 +1,7 @@
 /* 0. Imports */
 @import "fonts.css";
 @import "normalize.css";
-
+@import "languages.css";
 /* 1. Variables */
 @baseFontSize: 12px;
 @baseLineHeight: 14px;
@@ -346,6 +346,20 @@ header.main {
 
     .right {
         padding: 20px 0 0 0;
+        width: 350px;
+
+        form {
+            float: left;
+
+            label {
+                color: lighten(@text-gray, 20%);
+                font-size: 11px;
+            }
+        }
+
+        img {
+            float: right;
+        }
     }
 }
 

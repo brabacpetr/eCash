@@ -7,13 +7,24 @@
     <meta name="description" content="">
     <meta name="author" content="Petr Brabač <brabac.petr@gmail.com>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
     <!-- Styles -->
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/screen.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <link href="css/ie9lt.css" rel="stylesheet">
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.selectbox-0.6.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".language-select").selectbox({
+                callback: function (lang) {
+                    alert(lang);
+                }
+            });
+        });
+    </script>
 
     <!-- Favicons -->
     <!--
@@ -37,9 +48,16 @@
                 </a>
 
                 <div class="right">
-                    <!-- Language select -->
+                    <form action="#" method="get">
+                        <label>Language:</label>
+                        <select id="lang" class="language-select">
+                            <option value="en">English</option>
+                            <option value="cz">Czech</option>
+                        </select>
+                    </form>
 
                     <img src="images/euro_impex_logo.png" alt="Euro Impex Group">
+                    <div class="clear"></div>
                 </div>
 
                 <div class="clear"></div>
