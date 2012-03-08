@@ -17,13 +17,6 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.selectbox-0.6.1.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
-            $(".language-select").selectbox({
-                callback: function (lang) {
-                    alert(lang);
-                }
-            });
-        });
     </script>
 
     <!-- Favicons -->
@@ -50,7 +43,7 @@
                 <div class="right">
                     <form action="#" method="get">
                         <label>Language:</label>
-                        <select id="lang" class="language-select">
+                        <select id="lang" class="language-select jquery-selectbox">
                             <option value="en">English</option>
                             <option value="cz">Czech</option>
                         </select>
