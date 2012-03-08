@@ -256,13 +256,18 @@ textarea {
 #footer {
     background: transparent url("../images/footer_background.png") 0 0 repeat-x;
     width: 100%;
-    height: 256px;
+    height: 205px;
+
+    .pad20 {
+        padding-bottom: 10px;
+    }
 
     hr {
         background: transparent url("../images/footer_hr.jpg") 0 0 repeat-x;
         border: none;
         height: 2px;
         width: 100%;
+        margin: 0 0 20px 0;
     }
 
     h4 {
@@ -295,10 +300,15 @@ textarea {
     .last {
         width: 285px;
 
+        h4 {
+            margin: 30px 0 10px 0;
+        }
+
         a.left {
             color: @footer-medi-gray;
             text-align: center;
-            margin: 0 10px 0 0;
+            margin: 0 30px 0 0;
+            #fonts > .shorthand(9px, normal, 9px);
 
             &:hover {
                 color: @white;
@@ -531,29 +541,29 @@ nav.top {
     }
 
     &.facebook {
-        background: transparent url("../images/social_sprite.png") -5px 0 no-repeat;
+        background: transparent url("../images/social_sprite_1.png") 0px 0 no-repeat;
         float: none;
-        width: 56px;
-        height: 56px;
+        width: 40px;
+        height: 42px;
     }
 
     &.twitter {
-        background: transparent url("../images/social_sprite.png") -117px 0 no-repeat;
+        background: transparent url("../images/social_sprite_1.png") -41px 0 no-repeat;
         float: none;
-        width: 56px;
-        height: 56px;
+        width: 40px;
+        height: 42px;
     }
     &.linkedin {
-        background: transparent url("../images/social_sprite.png") -227px 0 no-repeat;
+        background: transparent url("../images/social_sprite_1.png") -81px 0 no-repeat;
         float: none;
-        width: 56px;
-        height: 56px;
+        width: 40px;
+        height: 42px;
     }
     &.google {
-        background: transparent url("../images/social_sprite.png") -340px 0 no-repeat;
+        background: transparent url("../images/social_sprite_1.png") -122px 0 no-repeat;
         float: none;
-        width: 56px;
-        height: 56px;
+        width: 40px;
+        height: 42px;
     }
 }
 
