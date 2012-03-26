@@ -16,6 +16,7 @@
 @footer-light-gray: #ccc;
 @footer-medi-gray: #666;
 @footer-dark-gray: #999;
+@green: #4ba82e;
 
 /* 2. Global Styles */
 body {
@@ -565,6 +566,19 @@ nav.top {
         width: 40px;
         height: 42px;
     }
+
+    &.triangle-middle-up {
+        background-position: -35px -125px;
+        height: 11px;
+        width: 22px;
+    }
+
+    &.green-ok {
+        background-position: 0px -167px;
+        float: none;
+        width: 51px;
+        height: 60px;
+    }
 }
 
 .button {
@@ -657,6 +671,31 @@ nav.top {
 
             &.desc {
                 width: 130px;
+            }
+        }
+    }
+
+    &.ok-box {
+        margin-left: 0px !important;
+        margin-top: -20px !important;
+        width: 90% !important;
+
+        .triangle-middle-up {
+            margin: -20px 0 0 20px;
+        }
+
+        .left .green-ok {
+            margin-top: -10px;
+        }
+
+        .text {
+            margin-left: 10px;
+            width: 85%;
+
+            h5 {
+                margin: 0 0 15px 0;
+                #fonts > .shorthand(18px, normal, 18px);
+                color: @green;
             }
         }
     }

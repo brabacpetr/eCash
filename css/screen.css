@@ -66,6 +66,8 @@ nav.top a.last.active span{background-position:0 -200px;}
 .icon.twitter{background:transparent url("../images/social_sprite_1.png") -41px 0 no-repeat;float:none;width:40px;height:42px;}
 .icon.linkedin{background:transparent url("../images/social_sprite_1.png") -81px 0 no-repeat;float:none;width:40px;height:42px;}
 .icon.google{background:transparent url("../images/social_sprite_1.png") -122px 0 no-repeat;float:none;width:40px;height:42px;}
+.icon.triangle-middle-up{background-position:-35px -125px;height:11px;width:22px;}
+.icon.green-ok{background-position:0px -167px;float:none;width:51px;height:60px;}
 .button{display:block;font-family:Aller,sans-serif;font-size:20px;font-weight:normal;line-height:24px;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.19);text-decoration:none;}.button .left{background:transparent url("../images/button_stripe.png");display:block;float:left;height:53px;width:9px;background-position:0 0;background-repeat:no-repeat;}
 .button .text{padding:0 20px;line-height:53px;background:transparent url("../images/button_stripe.png");display:block;float:left;height:53px;color:#ffffff;background-position:0 -53px;}
 .button .right{background:transparent url("../images/button_stripe.png");display:block;float:left;height:53px;width:9px;background-position:0 -106px;background-repeat:no-repeat;}
@@ -76,6 +78,9 @@ nav.top a.last.active span{background-position:0 -200px;}
 .button.submit:hover .right{background:transparent url("../images/icons_sprite.png") 0 -65px no-repeat;height:53px;width:49px;}
 .white-box{width:100%;background:#f0f8fb;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}.white-box .pad20{padding:20px 10px 10px 10px;}
 .white-box .currency{width:100%;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;font-weight:normal;line-height:25px;margin:0 0 15px 0;}.white-box .currency td{text-align:left;border-bottom:1px dotted #bfbfbf;}.white-box .currency td.desc{width:130px;}
+.white-box.ok-box{margin-left:0px !important;margin-top:-20px !important;width:90% !important;}.white-box.ok-box .triangle-middle-up{margin:-20px 0 0 20px;}
+.white-box.ok-box .left .green-ok{margin-top:-10px;}
+.white-box.ok-box .text{margin-left:10px;width:85%;}.white-box.ok-box .text h5{margin:0 0 15px 0;font-size:18px;font-weight:normal;line-height:18px;color:#4ba82e;}
 .white-box a{color:#cd1324;}.white-box a:hover{color:#0b5a9b;}
 table.operations td{vertical-align:top;padding:0 20px;width:131px;text-align:center;border:0px;}table.operations td a{color:#cd1324;}table.operations td a:hover{color:#0b5a9b;}
 table.operations td a span{display:block;}
