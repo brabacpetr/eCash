@@ -1,4 +1,4 @@
-@import "fonts.css";
+/*@import "fonts.css";*/
 @import "normalize.css";
 @import "languages.css";
 body{background:#ffffff;margin:0;position:relative;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:14px;}
@@ -69,7 +69,7 @@ nav.top a.last.active span{background-position:0 -200px;}
 .icon.triangle-middle-up{background-position:-35px -125px;height:11px;width:22px;}
 .icon.green-ok{background-position:0px -167px;float:none;width:51px;height:60px;}
 .button{display:block;font-family:Aller,sans-serif;font-size:20px;font-weight:normal;line-height:24px;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.19);text-decoration:none;}.button .left{background:transparent url("../images/button_stripe.png");display:block;float:left;height:53px;width:9px;background-position:0 0;background-repeat:no-repeat;}
-.button .text{padding:0 20px;line-height:53px;background:transparent url("../images/button_stripe.png");display:block;float:left;height:53px;color:#ffffff;background-position:0 -53px;}
+.button .text{padding:0 18px;line-height:53px;background:transparent url("../images/button_stripe.png");display:block;float:left;height:53px;color:#ffffff;background-position:0 -53px;}
 .button .right{background:transparent url("../images/button_stripe.png");display:block;float:left;height:53px;width:9px;background-position:0 -106px;background-repeat:no-repeat;}
 .button:hover .left{background-position:0 -159px;}
 .button:hover .right{background-position:0 -265px;}

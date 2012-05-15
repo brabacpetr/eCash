@@ -15,8 +15,11 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/cufon-yui.min.js"></script>
+    <script type="text/javascript" src="js/Aller_400-Aller_700-Aller_italic_400-Aller_italic_700.font.js"></script>
     <script type="text/javascript" src="js/jquery.selectbox-0.6.1.js"></script>
     <script type="text/javascript">
+    Cufon.replace("h1")("h2")("h3")("header.main .logo strong")("nav.top a", ".button")(".content-blue .col2.last h3")(".content-white .col2 h3");
     </script>
 
     <!-- Favicons -->
@@ -35,7 +38,7 @@
             <header class="main">
                 <a href="index.html" class="logo left">
                     <img src="images/logo.png" alt="e-cash converter">
-                    <strong>ecash<br>converter</strong>
+                    <strong class="cufonize">ecash<br>converter</strong>
 
                     <div class="clear"></div>
                 </a>
@@ -57,15 +60,15 @@
             </header>
 
             <nav class="top">
-                <a href="#" class="first active">
+                <a href="#" class="first active cufonize">
                     <span></span>
                     Exchange
                 </a>
-                <a href="#">Recharge card</a>
-                <a href="#">Transfer card</a>
-                <a href="#">Terms of use</a>
-                <a href="#">About service</a>
-                <a href="#" class="last">
+                <a href="#" class="cufonize">Recharge card</a>
+                <a href="#" class="cufonize">Transfer card</a>
+                <a href="#" class="cufonize">Terms of use</a>
+                <a href="#" class="cufonize">About service</a>
+                <a href="#" class="last cufonize">
                     <span></span>
                     Feedback
                 </a>
@@ -74,7 +77,7 @@
             <div class="content-blue">
                 <div class="pad20">
                     <div class="col_2 fixed col">
-                        <h1>Směnárna</h1>
+                        <h1 class="cufonize">Směnárna</h1>
 
                         <form action="index.html" method="get">
                             <fieldset class="col_3 col">
@@ -85,7 +88,7 @@
                                 <br><br>
                                 <a href="#" class="button submit">
                                     <span class="left"></span>
-                                    <span class="text">
+                                    <span class="text cufonize">
                                         Next step <sup>2/2</sup>
                                     </span>
                                     <span class="right"></span>
@@ -109,7 +112,7 @@
                     </div>
 
                     <div class="col_2 last col">
-                        <h3><span class="icon rate"></span> Currency rate</h3>
+                        <h3 class="cufonize"><span class="icon rate"></span> Currency rate</h3>
                         <div class="clear"></div>
                         <div class="white-box">
                             <span class="icon triangle-up right"></span>
